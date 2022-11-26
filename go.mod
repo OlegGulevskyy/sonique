@@ -1,8 +1,12 @@
-module changeme
+module github.com/OlegGulevskyy/sonique
 
 go 1.18
 
-require github.com/wailsapp/wails/v2 v2.2.0
+require (
+	github.com/wailsapp/wails/v2 v2.2.0
+	golang.design/x/hotkey v0.4.0
+	golang.design/x/mainthread v0.3.0
+)
 
 require (
 	github.com/bep/debounce v1.2.1 // indirect
